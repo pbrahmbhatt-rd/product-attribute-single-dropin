@@ -36,7 +36,9 @@ const ProductAttributeSingle = ({
 
   if (!product) return null;
 
-  const attr = (product.attributes || []).find((a) => a.code === attributeCode);
+  const attr = (product.attributes || []).find(
+    a => a.code === attributeCode || a.id === attributeCode
+  );
   const value = attr?.value;
 
   if (!value) return null;
