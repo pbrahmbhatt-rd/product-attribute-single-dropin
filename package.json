@@ -1,11 +1,11 @@
 {
-  "name": "@yourorg/product-attribute-single-dropin",
+  "name": "@pbrahmbhatt-rd/product-attribute-single-dropin",
   "version": "1.0.0",
   "description": "Adobe Live Search drop-in: render a single product attribute on PDP",
   "main": "src/dropins/storefront-pdp/containers/ProductAttributeSingle.js",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/your-org/product-attribute-single-dropin.git"
+    "url": "https://github.com/pbrahmbhatt-rd/product-attribute-single-dropin.git"
   }
 }
